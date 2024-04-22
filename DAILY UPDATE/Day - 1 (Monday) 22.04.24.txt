@@ -1,0 +1,24 @@
+Task -> Authentication system for users using (JWT AUTH, MONGODB concepts and NEST JS) with Angular 17
+
+Progress (22.04.24 06:00pm) -> Done with backend development part i.e. creation of REST:API endpoints like: 1.signUp 2. signIn 3. Reset Password.
+All endpoints are tested.
+
+-> MongoDb is used to store data and JWT to generate token.
+
+What I learned today -> 1. Validation of data using class-validator
+                        2. How to use JWT with Nest.Js 
+                        3. How to connect MongoDB with Nest.js and few other basic concepts.
+
+The user schema I am using looks like ->
+{
+    name:String;
+    favBook:String;
+    email:String;
+    password:String;
+}     
+
+Explaination -> User will enter basic details like name, email and password but if user need to change his/her password they have to authenticate themselves by answering a basic question i.e. "Name your favourite book" if it matches then password will get updated in Database else error.
+
+Thank you.
+Shreyansh Saagar
+22.04.24 (.6:00pm)
